@@ -21,7 +21,7 @@
 		flex-direction: column;
 		justify-content: center;
 		align-items: center;
-		height: 100vh; /* full screen height */
+		height: 100vh;
 		font-family: sans-serif;
 		background-color: #f9f9f9;
 	}
