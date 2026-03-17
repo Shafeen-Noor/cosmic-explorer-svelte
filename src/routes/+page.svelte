@@ -1,5 +1,5 @@
 <script>
-	let count = $state(0); // keeping as you requested
+	let count = $state(0);
 
 	function increment() {
 		count = count + 1;
@@ -16,7 +16,6 @@
 </div>
 
 <style>
-	/* Center everything vertically and horizontally */
 	.container {
 		display: flex;
 		flex-direction: column;
@@ -37,13 +36,13 @@
 		font-size: 1.2rem;
 		border: none;
 		border-radius: 8px;
-		background-color: #4f46e5; /* indigo */
+		background-color: #4f46e5;
 		color: white;
 		cursor: pointer;
 		transition: background-color 0.2s;
 	}
 
 	button:hover {
-		background-color: #4338ca; /* slightly darker on hover */
+		background-color: #4338ca;
 	}
 </style>
