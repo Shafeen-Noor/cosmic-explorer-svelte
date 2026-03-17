@@ -7,7 +7,7 @@
 		"dev": "vite dev",
 		"build": "vite build",
 		"preview": "vite preview",
-		"prepare": "svelte-kit sync && husky install",
+		"prepare": "husky",
 		"check": "svelte-kit sync && svelte-check --tsconfig ./jsconfig.json",
 		"check:watch": "svelte-kit sync && svelte-check --tsconfig ./jsconfig.json --watch",
 		"lint": "prettier --check . && eslint .",
@@ -34,9 +34,9 @@
 		"vite": "^7.3.1"
 	},
 	"lint-staged": {
-	"*.{js,svelte}": [
-		"eslint --fix",
-		"prettier --write"
-	]
-}
+		"*.{js,svelte}": [
+			"eslint --fix",
+			"prettier --write"
+		]
+	}
 }
