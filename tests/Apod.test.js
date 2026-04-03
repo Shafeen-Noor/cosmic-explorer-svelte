@@ -2,10 +2,10 @@ import { render, screen, fireEvent, waitFor } from '@testing-library/svelte';
 import { vi, describe, it, beforeEach, expect } from 'vitest';
 
 // ─── Mocks ───────────────────────────────────────────────────
-vi.mock('../src/lib/api/Apod', () => ({
+vi.mock('../src/lib/api/Apod.js', () => ({
 	fetchAPOD: vi.fn()
 }));
-import { fetchAPOD } from '../src/lib/api/Apod';
+import { fetchAPOD } from '../src/lib/api/Apod.js';
 
 // ─── Components ──────────────────────────────────────────────
 import ApodHeader from '../src/lib/components/Apod/ApodHeader.svelte';
