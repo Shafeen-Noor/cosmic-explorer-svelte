@@ -16,7 +16,7 @@ export default defineConfig({
 	},
 	resolve: {
 		alias: {
-			$lib: path.resolve('./src/lib') // <- add this line
+			$lib: path.resolve('./src')
 		},
 		conditions: ['browser']
 	}
