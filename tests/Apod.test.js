@@ -88,7 +88,7 @@ describe('ApodDatePicker', () => {
 		expect(screen.getByLabelText('Transmission Date')).toHaveValue('2024-07-04');
 	});
 
-	it('updates bound value when input changes', async () => {
+	it('updates the bound value when input changes', async () => {
 		const { getByLabelText } = render(ApodDatePicker, {
 			value: '2024-01-01',
 			maxDate: '2099-12-31',
